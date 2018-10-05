@@ -44,7 +44,7 @@ function isAllowed(puzzle, rowIndex, colIndex, number) {
 }
 
 function columnToArray(puzzle, idx) {
-    return puzzle.map((row) => row[idx]) //мапим элементы по горизонтали, возвращаем массив-строку индексов?
+    return puzzle.map((row) => row[idx])
 }
 
 function squareToArray(puzzle, x, y) {
